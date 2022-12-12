@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: rgb(90, 89, 89);
+  color: #929ea4;
 }
 
 .App-logo {
@@ -7,16 +9,8 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -28,11 +22,48 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon {
+  color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+  background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navbar-logo>img {
+  float: left;
+  width: 120px;
+}
+
+.navbar-menu {
+  display: flex;
+  float: right;
+}
+
+.nav-item{
+  float:right;
+}
+
+.ul{
+  list-style: none;
+}
+
+iconify-icon{
+  color:grey;
+  font-size: 18px;
 }
