@@ -36,21 +36,17 @@ export default function App() {
            
 
             <div class="notepad_logo d-flex flex-row fl-left me-1" title="Click here for Google Search">
-                <img class="main-logo" src="images/logo-dark.png" alt="logo" height="100%" width="90px"/>
+                <img class="main-logo" src="./images/logo-dark.jpg" alt="logo" height="100%" width="90px"/>
             </div>
 
             
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 fl-right">
 
-
-
             {/* <ul class="navbar-nav d-flex flex-row me-1"> */}
 
                 <li class="nav-item me-3 me-lg-0">
                     <a class="nav-link mx-1" href="#">
-                    
-                    <iconify-icon icon="ion:lock-closed"></iconify-icon>
-                   
+                      <iconify-icon icon="ion:lock-closed"></iconify-icon>
                     </a>
                 </li>
 
@@ -117,14 +113,9 @@ export default function App() {
             </ul>
         </div>
     </div>
-   
 </nav>
-
-
       </body>
-
     </div>
-
   );
 }
 
