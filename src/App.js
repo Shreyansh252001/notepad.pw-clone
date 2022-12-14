@@ -36,7 +36,8 @@ export default function App() {
            
 
             <div class="notepad_logo d-flex flex-row fl-left me-1" title="Click here for Google Search">
-                <img class="main-logo" src="./images/logo-dark.jpg" alt="logo" height="100%" width="90px"/>
+                <img class="main-logo" src="https://notepad.pw/content/images/logo-dark.png" alt="logo" height="100%" width="90px"/>
+                
             </div>
 
             
