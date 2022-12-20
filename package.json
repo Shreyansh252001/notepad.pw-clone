@@ -1,5 +1,6 @@
 {
   "name": "notepad",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -43,6 +44,7 @@
     ]
   },
   "devDependencies": {
-    "@iconify-icon/react": "^1.0.2"
+    "@iconify-icon/react": "^1.0.2",
+    "@iconify/react": "^4.0.1"
   }
 }
