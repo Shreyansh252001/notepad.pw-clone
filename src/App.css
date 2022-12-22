@@ -1,14 +1,8 @@
 .App {
   text-align: center;
-  background-color: rgb(90, 89, 89);
+  background-color: #331b1b;
   color: #929ea4;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 
 .App-header {
   flex-direction: column;
@@ -18,52 +12,32 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-/* Color of the links BEFORE scroll */
-.navbar-scroll .nav-link,
-.navbar-scroll .navbar-toggler-icon {
-  color: #fff;
-}
-
-/* Color of the links AFTER scroll */
-.navbar-scrolled .nav-link,
-.navbar-scrolled .navbar-toggler-icon {
-  color: #4f4f4f;
-}
-
-/* Color of the navbar AFTER scroll */
-.navbar-scrolled {
-  background-color: #fff;
-}
-
 /* An optional height of the navbar AFTER scroll */
 .navbar.navbar-scroll.navbar-scrolled {
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-.navbar-logo>img {
+.navbar{
+  display:flex;
+}
+
+.container{
+  margin: 35.15px auto 0px; 
+  /* display: block; */
+}
+
+.navbar-logo>img{
   float: left;
   width: 120px;
-}
-
-.navbar-menu {
-  display: flex;
-  float: right;
-}
-
-.nav-item{
-  float:right;
+  opacity:0.7;
 }
 
 .ul{
   list-style: none;
 }
 
-iconify-icon{
-  color:grey;
+li{
+  color:#929ea4;
   font-size: 18px;
 }
